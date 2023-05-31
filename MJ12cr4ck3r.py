@@ -23,7 +23,7 @@ def show_banner():
 
 def main():
     show_banner()
-    print("   Majestic12 Fake Password Cracker v1.0\n\n")
+    print("   Majestic12 Fake Password Cracker v1.0 by 6un7h3r h3rm4nn\n\n")
     target = input("Enter the target's username: ")
     print(f"Attempting to crack password for: {target}  ", end="")
     spinner = spinning_cursor()
